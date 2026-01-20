@@ -47,7 +47,7 @@ export default function Navbar() {
     e.preventDefault();
     const element = document.querySelector(href);
     if (element) {
-      const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 80; // Account for navbar height
+      const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 80;
       window.scrollTo({
         top: offsetTop,
         behavior: "smooth",
@@ -108,27 +108,28 @@ export default function Navbar() {
               aria-expanded={isMobileMenuOpen}
             >
               <div className="w-6 h-6 relative">
-              <span
-                className={`absolute top-0 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
-                  isMobileMenuOpen
-                    ? "rotate-45 translate-y-2.5"
-                    : "translate-y-0"
-                }`}
-              ></span>
-              <span
-                className={`absolute top-2.5 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
-                  isMobileMenuOpen ? "opacity-0" : "opacity-100"
-                }`}
-              ></span>
-              <span
-                className={`absolute bottom-0 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
-                  isMobileMenuOpen
-                    ? "-rotate-45 -translate-y-2.5"
-                    : "translate-y-0"
-                }`}
-              ></span>
-            </div>
-          </button>
+                <span
+                  className={`absolute top-0 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
+                    isMobileMenuOpen
+                      ? "rotate-45 translate-y-2.5"
+                      : "translate-y-0"
+                  }`}
+                ></span>
+                <span
+                  className={`absolute top-2.5 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
+                    isMobileMenuOpen ? "opacity-0" : "opacity-100"
+                  }`}
+                ></span>
+                <span
+                  className={`absolute bottom-0 left-0 w-6 h-0.5 bg-current transform transition-all duration-300 ${
+                    isMobileMenuOpen
+                      ? "-rotate-45 -translate-y-2.5"
+                      : "translate-y-0"
+                  }`}
+                ></span>
+              </div>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
