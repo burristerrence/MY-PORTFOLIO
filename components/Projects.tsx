@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import FadeInUp from "./FadeInUp";
 
 interface Project {
@@ -16,10 +17,10 @@ const projects: Project[] = [
     id: 1,
     title: "Police Innovation",
     description:
-      "A comprehensive platform for modernizing police operations with AI-powered analytics, real-time reporting, and streamlined communication tools.",
+      "AI-powered dashboard to record, monitor, and evaluate patrols, crime eradication, partnerships, school interventions, and youth sport & cultural initiatives.",
     tech: ["Next.js", "TypeScript", "AI/ML", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
-    projectUrl: "https://example.com",
+    projectUrl: "/demo/police-innovation",
   },
   {
     id: 2,
@@ -127,27 +128,49 @@ export default function Projects() {
                 </div>
 
                 {/* View Project Button */}
-                <a
-                  href={project.projectUrl || "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-full px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-sm sm:text-base font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50 group/btn"
-                >
-                  <span>View Project</span>
-                  <svg
-                    className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                {project.projectUrl?.startsWith("/") ? (
+                  <Link
+                    href={project.projectUrl}
+                    className="inline-flex items-center justify-center w-full px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-sm sm:text-base font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50 group/btn"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </a>
+                    <span>View Demo</span>
+                    <svg
+                      className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </Link>
+                ) : (
+                  <a
+                    href={project.projectUrl || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white text-sm sm:text-base font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/50 group/btn"
+                  >
+                    <span>View Project</span>
+                    <svg
+                      className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover/btn:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </a>
+                )}
               </div>
             </div>
             </FadeInUp>
