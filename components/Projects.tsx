@@ -38,7 +38,7 @@ const projects: Project[] = [
       "Platform for youth clubs: membership, events, cultural and sporting programmes, community engagement, administration and reporting.",
     tech: ["React", "Node.js", "Tailwind CSS", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
-    projectUrl: "https://example.com",
+    projectUrl: "/demo/youth-clubs",
   },
   {
     id: 4,
