@@ -42,11 +42,11 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Hearts and Mind Blog",
     description:
-      "A modern blog platform with markdown support, syntax highlighting, SEO optimization, and a beautiful reading experience.",
+      "IATF Hearts and Minds Programme blog: stories, updates, and community engagement content.",
     tech: ["Next.js", "MDX", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
+    image: "/hearts-and-mind.jpg",
     projectUrl: "https://example.com",
   },
   {
