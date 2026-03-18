@@ -19,7 +19,7 @@ const projects: Project[] = [
     description:
       "AI-powered dashboard to record, monitor, and evaluate patrols, crime eradication, partnerships, school interventions, and youth sport & cultural initiatives.",
     tech: ["Next.js", "TypeScript", "AI/ML", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    image: "/police-innovation.png",
     projectUrl: "/demo/police-innovation",
   },
   {
