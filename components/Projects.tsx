@@ -51,12 +51,12 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Social Media Dashboard",
+    title: "Hearts and Mind Facebook Page",
     description:
-      "Analytics dashboard for social media metrics with comprehensive data visualization, reporting features, and performance insights.",
-    tech: ["React", "Chart.js", "REST API"],
+      "IATF Hearts and Minds Programme Facebook presence: community engagement, events, and outreach content.",
+    tech: ["Facebook", "Content", "Community"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    projectUrl: "https://example.com",
+    projectUrl: "https://www.facebook.com/photo/?fbid=673139661912655&set=pcb.673141851912436",
   },
   {
     id: 6,
