@@ -7,7 +7,7 @@ To use your own pictures:
 3. Open this folder in File Explorer:  MY PORTFOLIO\public\
 4. Paste the image here (Ctrl+V).
 5. Rename the pasted file to the correct name:
-   - Profile picture (Hero & About):  profile.jpg
+   - Profile picture (Hero & About):  profile.png
    - Police Innovation card:  police-innovation.png
    - IATF Youth Clubs card:  iatf-youth-clubs.jpg
    - Hearts and Mind Web Page card (logo only):  hearts-and-mind-logo.jpg

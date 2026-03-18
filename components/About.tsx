@@ -65,7 +65,7 @@ export default function About() {
               <div className="bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8">
                 <div className="aspect-square bg-gradient-to-br from-purple-200 to-pink-200 dark:from-purple-900 dark:to-pink-900 rounded-lg sm:rounded-xl flex items-center justify-center overflow-hidden">
                   <img
-                    src="/profile.jpg"
+                    src="/profile.png"
                     alt="Terrence Burris"
                     className="w-full h-full object-cover"
                     onError={(e) => {

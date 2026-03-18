@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="mb-6 sm:mb-8 flex justify-center">
             <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-4 ring-white/30 shadow-2xl">
               <img
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Terrence Burris"
                 className="w-full h-full object-cover"
                 onError={(e) => {
