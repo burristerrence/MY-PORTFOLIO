@@ -51,12 +51,12 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Hearts and Mind Facebook Page",
+    title: "Hearts and Mind Web Page",
     description:
-      "IATF Hearts and Minds Programme Facebook presence: community engagement, events, and outreach content.",
+      "IATF Hearts and Minds Programme web presence: community engagement, events, and outreach content.",
     tech: ["Facebook", "Content", "Community"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    projectUrl: "https://www.facebook.com/photo/?fbid=673139661912655&set=pcb.673141851912436",
+    image: "/hearts-and-mind-logo.jpg",
+    projectUrl: "https://www.facebook.com/photo/?fbid=182372487656044&set=a.182372477656045",
   },
   {
     id: 6,

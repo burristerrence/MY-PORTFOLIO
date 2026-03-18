@@ -9,5 +9,6 @@ To use your own pictures:
 5. Rename the pasted file to the correct name:
    - Police Innovation card:  police-innovation.png
    - IATF Youth Clubs card:  iatf-youth-clubs.jpg
+   - Hearts and Mind Web Page card (logo only):  hearts-and-mind-logo.jpg
 
 The portfolio will then show your image on the corresponding project card.
