@@ -47,7 +47,7 @@ const projects: Project[] = [
       "IATF Hearts and Minds Programme blog: stories, updates, and community engagement content.",
     tech: ["Next.js", "MDX", "Tailwind CSS"],
     image: "/hearts-and-mind.jpg",
-    projectUrl: "https://example.com",
+    projectUrl: "/demo/hearts-and-mind-blog",
   },
   {
     id: 5,

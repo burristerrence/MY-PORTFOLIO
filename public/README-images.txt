@@ -11,4 +11,7 @@ To use your own pictures:
    - IATF Youth Clubs card:  iatf-youth-clubs.jpg
    - Hearts and Mind Web Page card (logo only):  hearts-and-mind-logo.jpg
 
-The portfolio will then show your image on the corresponding project card.
+Video (Hearts and Mind Blog page):
+- Place your video in public and name it:  hearts-and-mind-blog-video.mp4  (or .webm)
+
+The portfolio will then show your image/video on the corresponding project or page.
