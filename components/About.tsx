@@ -63,9 +63,20 @@ export default function About() {
           <FadeInUp delay={0.4} className="relative mt-8 md:mt-0">
             <div className="relative z-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl sm:rounded-2xl p-1">
               <div className="bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8">
-                <div className="aspect-square bg-gradient-to-br from-purple-200 to-pink-200 dark:from-purple-900 dark:to-pink-900 rounded-lg sm:rounded-xl flex items-center justify-center">
+                <div className="aspect-square bg-gradient-to-br from-purple-200 to-pink-200 dark:from-purple-900 dark:to-pink-900 rounded-lg sm:rounded-xl flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/profile.jpg"
+                    alt="Terrence Burris"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = "none";
+                      const next = target.nextElementSibling as HTMLElement;
+                      if (next) next.style.display = "block";
+                    }}
+                  />
                   <svg
-                    className="w-24 h-24 sm:w-32 sm:h-32 text-purple-600 dark:text-purple-400"
+                    className="w-24 h-24 sm:w-32 sm:h-32 text-purple-600 dark:text-purple-400 hidden"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

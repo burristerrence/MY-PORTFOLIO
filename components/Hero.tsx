@@ -33,6 +33,24 @@ export default function Hero() {
             isMounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
+          <div className="mb-6 sm:mb-8 flex justify-center">
+            <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-4 ring-white/30 shadow-2xl">
+              <img
+                src="/profile.jpg"
+                alt="Terrence Burris"
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = "none";
+                  const next = target.nextElementSibling as HTMLElement;
+                  if (next) next.style.display = "flex";
+                }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full items-center justify-center hidden" style={{ display: "none" }}>
+                <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">TB</span>
+              </div>
+            </div>
+          </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 px-4">
             Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
