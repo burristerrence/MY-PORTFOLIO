@@ -33,11 +33,11 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Weather Dashboard",
+    title: "IATF Youth Clubs",
     description:
-      "A beautiful weather dashboard with location-based forecasts, interactive data visualization, and detailed meteorological insights.",
-    tech: ["React", "Tailwind CSS", "OpenWeather API"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
+      "Platform for youth clubs: membership, events, cultural and sporting programmes, community engagement, administration and reporting.",
+    tech: ["React", "Node.js", "Tailwind CSS", "PostgreSQL"],
+    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
     projectUrl: "https://example.com",
   },
   {
