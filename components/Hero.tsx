@@ -46,7 +46,7 @@ export default function Hero() {
                   if (next) next.style.display = "flex";
                 }}
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full items-center justify-center hidden" style={{ display: "none" }}>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center" style={{ display: "none" }} aria-hidden="true">
                 <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">TB</span>
               </div>
             </div>
