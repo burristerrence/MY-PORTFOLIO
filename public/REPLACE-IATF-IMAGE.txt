@@ -1,0 +1,20 @@
+Replace IATF Youth Clubs image (iatf-youth-clubs.jpg)
+====================================================
+
+Option A – Run in terminal (replace the path with your chosen image):
+
+  Copy-Item "C:\PATH\TO\YOUR\chosen-image.jpg" "C:\Users\burri\OneDrive\MY PORTFOLIO\public\iatf-youth-clubs.jpg" -Force
+
+Option B – Use the script:
+
+  1. Open public\copy-iatf-photo.ps1
+  2. Change the line with $source to your image path, e.g.:
+     $source = "C:\Users\burri\OneDrive\Pictures\Pictures\Saved Pictures\my-photo.jpg"
+  3. In terminal:  cd "C:\Users\burri\OneDrive\MY PORTFOLIO\public"
+  4. Run:  .\copy-iatf-photo.ps1
+
+Option C – Manual replace:
+
+  1. Delete or rename the current public\iatf-youth-clubs.jpg
+  2. Copy your chosen image into the public folder
+  3. Rename it to:  iatf-youth-clubs.jpg
