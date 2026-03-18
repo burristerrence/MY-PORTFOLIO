@@ -156,6 +156,51 @@ export default function Contact() {
               </p>
             </div>
 
+            {/* Hearts and Mind */}
+            <div className="p-4 sm:p-5 rounded-xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 border border-purple-100 dark:border-purple-800/50 space-y-4">
+              <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                Hearts and Mind
+              </h4>
+              <a
+                href="mailto:inspectorsofficejc2@gmail.com"
+                className="flex items-center gap-3 p-3 rounded-lg bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 transition-colors group"
+              >
+                <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Email</p>
+                  <p className="text-gray-900 dark:text-white font-medium text-sm sm:text-base">inspectorsofficejc2@gmail.com</p>
+                </div>
+              </a>
+              <a
+                href="tel:6380804"
+                className="flex items-center gap-3 p-3 rounded-lg bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 transition-colors group"
+              >
+                <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">Contact</p>
+                  <p className="text-gray-900 dark:text-white font-medium text-sm sm:text-base">638 0804</p>
+                </div>
+              </a>
+              <div className="pt-2 border-t border-purple-200/50 dark:border-purple-700/50">
+                <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-2">Services Provided</p>
+                <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                  <li>• Lectures</li>
+                  <li>• Mentorship</li>
+                  <li>• Parenting Workshops</li>
+                  <li>• School Suspension Services</li>
+                  <li>• Homework Supervision</li>
+                </ul>
+              </div>
+            </div>
+
             <div className="space-y-4 sm:space-y-6">
               <a
                 href="mailto:your.email@example.com"
