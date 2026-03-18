@@ -26,10 +26,10 @@ const projects: Project[] = [
     id: 2,
     title: "Task Management App",
     description:
-      "A collaborative task management application with real-time updates, team collaboration features, and intuitive project tracking.",
+      "Project management for events: Christmas on the Hill—deliverables, timelines, permission, costing, sponsors, services, taskings, follow-ups, guest list.",
     tech: ["React", "Node.js", "Socket.io", "MongoDB"],
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    projectUrl: "https://example.com",
+    projectUrl: "/demo/task-management",
   },
   {
     id: 3,
